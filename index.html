@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Speed Typing Test</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="speedTypingTest">
+    <img src="https://assets.ccbp.in/frontend/dynamic-webapps/clock-img.png" alt="clock" class="mb-3" width="80">
+    <p id="timer">0</p>
+
+    <div class="d-flex justify-content-center mb-2">
+      <div id="spinner" class="spinner-border d-none" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+
+    <p id="quoteDisplay"></p>
+
+    <textarea id="quoteInput" placeholder="Start typing here..."></textarea><br>
+
+    <button id="submitBtn" class="btn-custom">Submit</button>
+    <button id="resetBtn" class="btn-custom">Reset</button>
+
+    <p id="result"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
